@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import { isValidSession } from './session';
 
 export const config = {
-  matcher: '/',
+  matcher: '/'
 };
 
 export async function middleware(request: NextRequest) {
